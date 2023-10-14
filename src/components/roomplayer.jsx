@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from "react"
 
-import { IsPC } from "../utils/platform"
+import { IsAndroid, IsPC } from "../utils/platform"
 
 export default function RoomPlayer(props) {
   const videoRef = useRef(null)
-
   function ShareScreen() {
     navigator.mediaDevices.getDisplayMedia({
       video: true,
