@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import VideoPlayer from './components/videoplayer'
+import RoomPlayer from './components/roomplayer'
 import './App.css'
 function App() {
   return (
     <>
       <div>
-        <VideoPlayer></VideoPlayer>
+        <RoomPlayer></RoomPlayer>
       </div>
     </>
   )
